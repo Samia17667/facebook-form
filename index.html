@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--   Head section start-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fb log in or sign up</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+
+        body {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3c5d9e;
+            font-family: sans-serif;
+        }
+
+        option {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px 0px 0px 270px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            width: 168px;
+            height: 34px;
+            cursor: pointer;
+        }
+
+        hr {
+            width: 70%;
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 228px;
+            border-color: lightblue;
+        }
+
+        button {
+            background-color: #4267b2;
+            width: 45px;
+            height: 20px;
+            color: white;
+            border: 2px solid #0c3994;
+            margin: 24px 0px 0px 15px;
+            border-width: .5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        button:hover {
+            background-color: #1c4cad;
+            transition-duration: 0.5s;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="height: 90px; 
+    width: 100%; 
+    background-color: #3b5998;">
+        <div style="height: 90px;
+        width: 50%;
+        background-repeat: no-repeat;
+        float: left;">
+            <h1>facebook </h1>
+        </div>
+        <div style="height: 90px; 
+        width: 50%; 
+        display: inline-block; 
+        float: left;">
+            <br />
+            <div style="float: left;">
+                <label
+                    style="margin-top: 2px;
+                    margin-left: 115px;
+                    font-size: 15px;
+                    font-family: sans-serif; 
+                    display: inline-block; 
+                    color: white;">
+                    Email or phone</label><br />
+                <input type="text" name="email or phone" id="email" required
+                    style="width: 150px;
+                    height: 20px;
+                    margin-right: 15px;
+                    margin-left: 115px;
+                    margin-top: 5px;" />
+            </div>
+
+            <div style="float: left;">
+                <label
+                    style="margin-top: 1px; 
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: white;
+                    display: inline-block;">Password</label><br>
+                <input type="password" name="password" id="password" required
+                    style="width: 150px;
+                    height: 20px;
+                    margin-right: 5px;
+                    margin-top: 5px" />
+                <br>
+                <p
+                    style="float: left;
+                    font-size: 15px;
+                    color: #9cabc5;
+                    cursor: pointer; 
+                    display: inline-block; 
+                    margin-top: 2px;">
+                    Forgotten account?</p>
+            </div>
+            <div style="float:left">
+                <button>Log in</button>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #e3e6f0; 
+    float: left; 
+    display: inline-block; 
+    height: 650px; 
+    width: 50%;">
+        <p
+            style="font-family: sans-serif; 
+            width: 50%; 
+            font-size: 20px; 
+            font-weight: bold; 
+            margin-top: 60px; 
+            margin-left: 270px;
+            color: rgba(11, 11, 116, 0.712);">
+            Facebook helps you connect and share with the people in your life.
+        </p>
+        <img  src="images/img.png" alt="image" style="margin-top: 20px; width: 70%; margin-left: 250px;" />
+    </div>
+    <div style="background-color: #e3e6f0;
+    float: left;
+    display: inline-block; 
+    height: 650px;
+    width: 50%;">
+        <div>
+            <form>
+                <h2
+                    style="margin-top: 30px; 
+                    margin-left: 87px; 
+                    font-size: 35px; 
+                    font-family: sans-serif; 
+                    color: #000000;">
+                    Create an account
+                </h2>
+                <p
+                    style="font-family: sans-serif; 
+                    margin-left: 90px; 
+                    font-size: 25px; 
+                    display: block; 
+                    color: black; 
+                    margin-top: 15px">
+                    It's quick and easy.
+                </p>
+                <br />
+                <input type="text" name="first name" placeholder=" &nbsp; &nbsp;First name" required
+                    style="border-radius: 4px;font-size: 20px;width: 200px;height: 35px;margin-left: 90px;" />
+                <input type="text" name="Surname" placeholder=" &nbsp; &nbsp;Surname" required
+                    style="border-radius: 4px;font-size: 20px;width: 200px;height: 35px;margin-left: 10px;" /><br />
+                <input type="text" name="Mobile number or email address"
+                    placeholder=" &nbsp; &nbsp;Mobile number or email address" required
+                    style="border-radius: 4px;margin-top: 15px;font-size: 20px;width: 420px;height: 35px;margin-left: 90px;" />
+                <input type="password" name="New password" placeholder=" &nbsp; &nbsp;New password" required
+                    style="border-radius: 4px;font-size: 20px;width: 200px;height: 35px;margin-left: 90px;margin-top: 10px;" /><br />
+                <p style="margin-top: 10px;margin-left: 90px;font-family: sans-serif;font-size: 20px;color: #9094a7;">
+                    <strong>Birthday</strong>
+                </p>
+                <br />
+                <select name="day" id="day" 
+                style="margin-left: 90px;
+                height: 25px;
+                width: 70px;
+                border-radius: 5px;">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <select name="month" id="month" 
+                style="height: 25px; 
+                width: 80px; 
+                border-radius: 5px;">
+                    <option value="">Month</option>
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                </select>
+                <select name="year" id="year" 
+                style="height: 25px; 
+                width: 65px; 
+                border-radius: 5px;">
+                    <option value="">1977</option>
+                    <option value="">1978</option>
+                    <option value="">1979</option>
+                    <option value="">1980</option>
+                    <option value="">1981</option>
+                    <option value="">1982</option>
+                    <option value="">1983</option>
+                    <option value="">1984</option>
+                    <option value="">1985</option>
+                    <option value="">1986</option>
+                    <option value="">1987</option>
+                    <option value="">1988</option>
+                    <option value="">1989</option>
+                    <option value="">1990</option>
+                    <option value="">1991</option>
+                    <option value="">1992</option>
+                    <option value="">1993</option>
+                    <option value="">1994</option>
+                    <option value="">1995</option>
+                    <option value="">1996</option>
+                    <option value="">1997</option>
+                    <option value="">1998</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">1989</option>
+                    <option value="">1990</option>
+                    <option value="">1991</option>
+                    <option value="">1992</option>
+                    <option value="">1993</option>
+                    <option value="">1994</option>
+                    <option value="">1995</option>
+                    <option value="">1996</option>
+                    <option value="">1997</option>
+                    <option value="">1998</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                    <option value="">2009</option>
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                </select><br />
+
+                <p style="margin-left: 90px; 
+                font-family: sans-serif;
+                font-size: 18px;
+                color: #9094a7;
+                margin-top: 10px;">
+                    <strong>Gender</strong>
+                </p>
+                <br />
+
+                <input type="radio" id="female" name="gender" value="female" required style="margin-left: 90px;" />
+                <label for="female" style="width: 55px; font-size: 20px;">Female</label>
+                <input type="radio" id="male" name="gender" value="male" required
+                    style="margin-top: 15px; margin-left: 10px;" />
+                <label for="male" style="width: 50px; font-size: 20px;">Male</label>
+                <input type="radio" id="custom" name="gender" value="others" required style="margin-left: 10px;" />
+                <label for="custom" style="width: 50px; font-size: 20px;">Custom</label>
+                <p style="
+            margin-left: 90px;
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 10px;
+            color: gray;
+            text-align: justify;">
+                    By clicking Sign Up, you agree to our
+                    <span style="color: #4e71ba; cursor: pointer;"> Terms</span>
+                    <span style="color: #4e71ba; cursor: pointer;">Data Policy</span>
+                    and <br />
+                    <span style="color: #4e71ba; cursor: pointer;">Cookie Policy</span>.
+                    You may receive SMS notifications from us and <br />can opt out at
+                    any time.
+                </p>
+                <br />
+
+                <input type="submit" value="Sign Up" style="
+            background-color: #69a354;
+            border: 1px solid #2c5115;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            color: #fff;
+            letter-spacing: 1px;
+            width: 200px;
+            height: 40px;
+            margin-top: 5px;
+            margin-left: 90px;
+            font-weight: bold;
+            font-size: 20px;" /><br />
+                <p style="
+            margin-left: 90px;
+            font-family: sans-serif;
+            font-size: 12px;
+            color: #666666;
+            margin-top: 45px;
+            font-weight: bold;">
+                    <span style="color: #4e71ba; cursor: pointer;">Create a Page</span>
+                    for a celebrity, band or business.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <div style="
+        height: 150px;
+        width: 100%;
+        background-color: white;
+        float: left;
+        display: inline-block;">
+        <div style="width: 100%; display: block;">
+            <p style="
+            font-size: 14px;
+            word-spacing: 10px;
+            margin-top: 30px;
+            margin-left: 230px;
+            list-style-type: none;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;">
+                <a href="#">English</a>
+                <a href="#">বাংলা</a>
+                <a href="#">অসমীয়া</a>
+                <a href="#">हिन्दी</a>
+                <a href="#">नेपाली</a>
+                <a href="#">中文(简体)</a>
+                <a href="#">العربية</a>
+                <a href="#">Bahasa Melayu</a>
+                <a href="#">Español</a>
+                <a href="#">Português (Brasil)</a>
+            </p>
+        </div>
+        <hr />
+        <p style="
+        width: 70%;
+        font-size: 13px;
+        word-spacing: 10px;
+        margin: 10px 0px 0px 0px;
+        margin-left: 15%;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        ">
+            <a href="https://www.facebook.com/r.php" target="_blank">Sign Up</a>
+            <a href="https://www.facebook.com/login/" target="_blank">Log In</a>
+            <a href="https://www.messenger.com/" target="_blank">Messenger</a>
+            <a href="https://www.facebook.com/lite/" target="_blank">Facebook Lite</a>
+            <a href="https://www.facebook.com/watch/" target="_blank">Watch</a>
+            <a href="https://www.facebook.com/directory/people/" target="_blank">People</a>
+            <a href="https://www.facebook.com/directory/pages/" target="_blank">اPages</a>
+            <a href="https://www.facebook.com/pages/category/" target="_blank">Page Catagories</a>
+            <a href="https://www.facebook.com/places/" target="_blank">Places</a>
+            <a href="https://www.facebook.com/games/" target="_blank">Games</a>
+            <a href="https://www.facebook.com/directory/places/" target="_blank">Locations</a>
+            <a href="https://www.facebook.com/marketplace/" target="_blank">Marketplace</a>
+            <a href="https://www.facebook.com/directory/groups/" target="_blank">Groups</a>
+            <a href="https://portal.facebook.com/" target="_blank">Portal</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <br />
+            <a href="https://www.facebook.com/local/lists/245019872666104/" target="_blank">Local</a>
+            <a href="https://www.facebook.com/fundraisers/" target="_blank">Fundraisers</a>
+            <a href="https://www.facebook.com/biz/directory/" target="_blank">Services</a>
+            <a href="https://www.facebook.com/facebook" target="_blank">About</a>
+            <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fcampaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-u/"
+                target="_blank">Create Ad</a>
+            <a href="https://www.facebook.com/pages/create/?ref_type=site_footer" target="_blank">Create Page</a>
+            <a href="https://developers.facebook.com/?ref=pf">Devlopers</a>
+            <a href="https://www.facebook.com/policies/cookies/" target="_blank">Cookies</a>
+            <a href="https://www.facebook.com/help/56813749330221">AdChoices</a>
+            <a href="https://www.facebook.com/policies?ref=pf">Terms</a>
+            <a href="https://www.facebook.com/help/?ref=pf">Help</a>
+        </p>
+        <br />
+        <br>
+        <small>
+            <a href="https://www.facebook.com/" 
+            style="margin-left: 225px; 
+            font-size: 10px; 
+            margin-bottom: 10px;">
+            Facebook © 2020</a>
+        </small>
+    </div>
+</body>
+
+</html>
